@@ -1,6 +1,162 @@
-* {
 
+body{
+    margin: 0;
+    background-color: #008080;
 }
+
+#content{
+    position: relative;
+    margin: auto;
+    width: 867px;
+    height: 1021px;
+    background-color: #D8D8D8;
+}
+/** header part **/
+header{
+	background-color: #A9A9A9;
+	width: 867px;
+	height: 180px;
+	color: #5a2418;
+    text-align: center;
+    font-weight: bold;
+}
+
+/** Navigation Bar part **/
+
+nav ul{
+    height: 45px;
+    text-align: center;
+    list-style: none;
+    background-color: #694C46;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+	height: 20px;
+	border-right: solid white 1px;
+	color: white;
+	padding: 0 15px 0 15px;
+	margin-top: 10px;
+}
+
+/** Content part **/
+
+section{
+
+	width: 867px ;
+	height: 620px ;
+	background-color: #D8D8D8;
+	position: absolute;
+}
+
+section h4{
+    display: block;
+    color: #5a2418;
+    width: 662px;
+    font-weight: bold;
+}
+
+aside{
+	display: inline-block;
+	float: left;
+	width: 200px;
+	height: 663px;
+	margin: 0 0 0 15px;
+}
+
+aside h4{
+    text-decoration: underline;
+}
+
+aside img{
+	width: 173px;
+	height: 143px;
+}
+
+span{ /**  Vertical dotted line  **/
+    display: inline-block;
+    float: left;
+    width: 1px;
+    height: 610px;
+    border-right: 1px dotted black;
+}
+
+article{
+	display: inline-block;
+	float: left;
+	width: 600px;
+	height: 663px;
+	margin: 0 10px 20px 30px;
+	text-align: justify;
+}
+
+article *{
+    float:left;
+}
+
+article img {
+	display: inline-block;
+	width: 149px;
+	height: 121px;
+	margin: 0 15px 0.4cm 0;
+	box-shadow: 8px 8px 12px #aaa;
+}
+
+
+/** Footer part **/
+
+footer{
+    display: block;
+	background-color: #694C46;
+	width: 867px;
+	height: 121px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+	top: 900px;
+}
+
+footer div{
+    display: inline;
+    float: left;
+    color: white;
+    margin: 0 15px 0 20px;
+}
+
+footer h3{
+    text-decoration: underline;
+}
+
+footer div a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** *{
+    
+}
+
+body {
+    background-color: #008080;
+}
+
 #conteneur{
 	width: 21cm;
 	height: 29cm;
@@ -8,33 +164,38 @@
 
 
 header{
-	background-color: #A3A3A3;
-	height: 4cm;
+	background-color: #A9A9A9;
+	height: 5cm;
 }
 
 header h1, header p{
 	
 	text-align: center;
-	color: #6B3E3C;
+	color: #694C46;
 }
 
 nav{
-	
-	background-color: #6B3E3C;
+	background-color: #694C46;
 	height: 1cm;
 	margin-top: 0.2cm;
+
+}
+
+nav ul{
+    display: inline-block;
+    text-align: center;
 
 
 }
 
-
-nav div p {
+nav li{
 
 	float: left;
 	height: 0.5cm;
 	width: 1.5cm;
 	border-right: solid white 1px;
 	color: white;
+	list-style: none;
 	padding: 0 10px 0 10px;
 }	
 
@@ -81,7 +242,7 @@ article img {
 	
 
 footer{
-	background-color:#6B3E3C;
+	background-color:#694C46;
 	height: 3cm;
 }
-	
+**/
