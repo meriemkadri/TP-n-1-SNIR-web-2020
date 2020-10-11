@@ -93,6 +93,7 @@ article{
 
 article *{
     float:left;
+    max-width: 600px;
 }
 
 article img {
